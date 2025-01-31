@@ -1,0 +1,556 @@
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Extrabold;
+    src: url(../fonts/Montserrat/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../fonts/Montserrat/Montserrat-Light.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #DBE1E5;
+}
+
+.container {
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.header__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.header__nav_list {
+    display: flex;
+    list-style: none;
+    margin-left:41px;
+}
+
+.header__nav_list_item {
+    margin-right: 47px;
+    font-family: Montserrat-Bold;
+    font-size: 14px;
+    color: #DD5B52;
+}
+
+.header__btn {
+    background-color: #DD5B52;
+    border: none;
+    border-radius: 8px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #ffffff;
+    font-family: Montserrat-Bold;
+    font-size: 14px; 
+}
+
+.bratok {
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bratok__header {
+    margin-right: 64px;
+}
+
+.bratok__header_head {
+    font-family: Montserrat-Extrabold;
+    font-size: 48px;
+    color: #DD5B52;
+    line-height: 64px;
+    margin-bottom: 32px;
+}
+
+.bratok__header_desc {
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    line-height: 28px;
+    color: #667484;
+    margin-bottom: 32px;
+}
+
+.bratok__header_btn {
+    background-color: #DD5B52;
+    border: none;
+    border-radius: 8px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-right: 12.84px;
+    padding-left: 12.84px;
+    color: #ffffff;
+    font-family: Montserrat-Bold;
+    font-size: 14px;  
+    line-height: 20px;  
+}
+
+.products {
+    margin-top: 96px;
+}
+
+.products__header {
+    font-family: Montserrat-Extrabold;
+    font-size: 48px;
+    color: #DD5B52;
+    line-height: 64px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.products__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.products__item {
+    margin-bottom: 32px;
+}
+
+.products__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+
+.products__item_text {
+    text-align: center;
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    line-height: 28px;
+    color: #667484; 
+}
+
+.products__item_btn {
+    display: flex;
+    background-color: #DD5B52;
+    border: none;
+    border-radius: 8px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-right: 17px;
+    padding-left: 17px;
+    color: #ffffff;
+    font-family: Montserrat-Bold;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 24px;
+}
+
+.why {
+    margin-top: 72px;
+}
+
+.why__header {
+    font-family: Montserrat-Extrabold;
+    font-size: 48px;
+    color: #DD5B52;
+    line-height: 64px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.why__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.why__item_header {
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #DD5B52;
+    margin-top: 32px;
+}
+
+.why__item_desc {
+    text-align: center;
+    font-family: Montserrat-Light;
+    font-size: 16px;
+    line-height: 26px;
+    color: #667484;
+    margin-top: 16px;
+    width: 352px;
+    height: 78px;
+}
+
+.buying {
+    margin-top: 96px;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-around;
+}
+
+.benefit {
+    display: flex;
+    flex-direction: column;
+}
+
+.benefit_num {
+    font-family: Montserrat-Extrabold;
+    font-size: 28px;
+    color: #DD5B52;
+    line-height: 40px;
+    text-align: center;
+}
+
+.benefit_text {
+    text-align: center;
+    font-family: Montserrat-Light;
+    font-size: 16px;
+    line-height: 26px;
+    color: #667484;
+}
+
+.delivery {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.delivery__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.delivery__form_header {
+    margin-bottom: 64px;
+    font-family: Montserrat-Extrabold;
+    font-size: 28px;
+    line-height: 40px;
+    color:#DD5B52;
+    text-align: center;
+}
+
+.delivery__form-item {
+    width: 544px;
+    height: 48px;
+    margin-bottom: 24px;
+    box-sizing: border-box;
+    padding-left: 19.43px;
+    border: #667484 1px solid;
+    border-radius: 8px;
+    font-family: Montserrat-Light;
+    font-size: 14px;
+    line-height: 22px;
+    color: #667484;
+}
+
+.delivery__form-btn {
+    position: relative;
+	display: inline-block;
+}
+
+.delivery__form-btn span {
+    position: relative;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 14px;
+	text-align: left;
+	border-radius: 8px;
+	background-color: none;
+    color: #667484;
+    font-family: Montserrat-Light;
+    border: #667484 1px solid;
+    width: 544px;
+    height: 48px;
+	line-height: 22px;
+	box-sizing: border-box;
+    padding-left: 19.43px;
+    padding-top: 13px;
+	margin-bottom: 24px;
+    vertical-align: middle;
+}
+
+.delivery__form-btn input[type=file] {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+	display: block;
+	width: 0;
+	height: 0;
+}
+
+.delivery__form-item:focus {
+    border: #667484 1px solid;
+    border-radius: 8px;
+}
+
+.delivery__form_button {
+    padding: 12px 27.93px 12px 27.93px;
+    width: 123.86px;
+    height: 44px;
+    border: none;
+    border-radius: 8px;
+    background-color: #DD5B52;
+    color: #ffffff;
+    font-family: Montserrat-Bold;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.realization {
+    margin-top: 96px;
+}
+
+.realization__header {
+    text-align: center;
+    font-family: Montserrat-Extrabold;
+    font-size: 48px;
+    color: #DD5B52;
+    line-height: 64px;
+    margin-bottom: 32px;
+}
+
+.realization__items {
+    margin-top: 64.82px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.realization__item {
+    width: 185px;
+    height: 223.18px;
+}
+
+.realization__item_step {
+    text-align: center;
+    font-family: Montserrat-Extrabold;
+    font-size: 40px;
+    line-height: 50px;
+    color: #DD5B52;
+    margin-bottom: 16.38px;
+}
+
+.realization__item_action {
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    line-height: 28px;
+    color: #667484;
+    text-align: center;
+}
+
+.realization__item_desc {
+    font-family: Montserrat-Light;
+    font-size: 16px;
+    line-height: 26px;
+    color: #667484;
+    text-align: center;
+    margin-top: 16.38px;
+}
+
+.review {
+    margin-top: 96px;
+}
+
+.review__header {
+    text-align: center;
+    font-family: Montserrat-Extrabold;
+    font-size: 48px;
+    color: #DD5B52;
+    line-height: 64px;
+    margin-bottom: 32px;
+}
+
+.review__items {
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.review__item-text {
+    width: 302px;
+    height: 150px;
+    background-color: rgba(219, 225, 229, 10%);
+    padding-top: 37px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 37px;
+    border-radius: 8px;
+}
+
+.review__text {
+    font-family: Montserrat-Light;
+    font-size: 16px;
+    line-height: 26px;
+    color: #667484;
+    text-align: center;
+}
+
+.review__author {
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    line-height: 28px;
+    color:#667484;
+    text-align: left;
+    margin-top: 16px;
+}
+
+.request {
+    margin-top: 96px;
+    display: flex;
+}
+
+.request__form-header {
+    font-family: Montserrat-Extrabold;
+    font-size: 28px;
+    line-height: 40px;
+    color: #DD5B52;
+    margin-bottom: 32px;
+}
+
+.blog {
+    margin-top: 96px;
+}
+
+.blog__header {
+    text-align: center;
+    font-family: Montserrat-Extrabold;
+    font-size: 48px;
+    color: #DD5B52;
+    line-height: 64px;
+    margin-bottom: 32px;
+}
+
+.blog__items {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__item {
+    width: 350px;
+    height: 413px;
+}
+
+.blog__item_btn {
+    display: flex;
+    background-color: #DD5B52;
+    border: none;
+    border-radius: 8px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    padding-right: 18.43px;
+    padding-left: 18.43px;
+    color: #ffffff;
+    font-family: Montserrat-Bold;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 16px;
+}
+
+.blog__item_text {
+    text-align: center;
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    line-height: 28px;
+    color: #667484; 
+}
+
+.blog__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.map {
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.map_text_header {
+    font-family: Montserrat-Extrabold;
+    font-size: 28px;
+    line-height: 40px;
+    color: #DD5B52;
+}
+
+.map_text_desc {
+    font-family: Montserrat-Light;
+    font-size: 16px;
+    line-height: 26px;
+    color: #667484;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.map_text_desc-last {
+    font-family: Montserrat-Light;
+    font-size: 16px;
+    line-height: 26px;
+    color: #667484;
+    margin-top: 16px;
+}
+
+.footer {
+    margin-top: 96px;
+    width: 100%;
+    background-color: #D9D9D9;
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
+
+.footer__items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__item {
+    width: 258px;
+    height: 160px;
+}
+
+.footer__item-text {
+    margin-bottom: 16.57px;
+    font-family: Montserrat-Light;
+    font-size: 16px;
+    line-height: 26px;
+    color:#667484;
+    text-decoration: none;
+}
+
+.footer__item-header {
+    font-family: Montserrat-Medium;
+    font-size: 18px;
+    line-height: 28px;
+    color: #667484;
+}
+
+.footer__list {
+    list-style: none;
+}
